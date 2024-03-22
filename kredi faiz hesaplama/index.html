@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js"></script>
+
+</head>
+<body>
+    <h3>KREDİ HESAPLAMA FORMU</h3><br>
+    <form action="#" id="formKredi">
+    <label for="txtkrediTutari">Çekilecek Kredi Tutarı: </label><input type="text" id="txtKrediTutari"><br>
+    <label for="taksitSayisi">Geri Ödeme Taksit Sayısı: </label>
+    <select id="taksitSayisi">
+        <option value="12">12</option>
+        <option value="24">24</option>
+        <option value="32">36</option>
+        <option value="48">48</option>
+    </select><br>
+    <input type="button" value="Kredi Hesapla" onclick="krediHesapla();">
+</form>
+<h5 id="sonuc"></h5>
+</body>
+</html>
